@@ -19,6 +19,7 @@
     background-color: rgb(212, 237, 247);
 }
 
+
 .container {
     padding: 16px;
     width: 320px;
@@ -26,6 +27,7 @@
     background:rgb(200, 216, 226);
     color:white;
     top: 50%;
+    bottom: 50%;
     left:50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -38,6 +40,7 @@
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
+    color: black
   }
   .text{
       font-size: 3;
@@ -75,7 +78,6 @@
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin: 70px 2px;
+  margin: 40px 2px;
   cursor: pointer;
  }
- 
