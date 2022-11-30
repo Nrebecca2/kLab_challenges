@@ -2,7 +2,7 @@
     height: 92%;
     width: 50%;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 30;
     overflow-x: hidden;
     padding-top: 20px;
@@ -23,7 +23,7 @@
 .container {
     padding: 16px;
     width: 320px;
-    height: 500px;
+    height: 550px;
     background:rgb(200, 216, 226);
     color:white;
     top: 50%;
@@ -78,6 +78,12 @@
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  margin: 40px 2px;
+  margin: 10px 2px;
   cursor: pointer;
+ }
+ .lablel{
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
  }
